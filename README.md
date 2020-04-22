@@ -1,2 +1,2 @@
 # blog
-My personal page and blog hosted here http://blog.sre.kz
+My personal page and blog hosted here https://blog.sre.kz
