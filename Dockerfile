@@ -2,15 +2,15 @@
 
 FROM alpine:latest
 
-RUN apk update && apk add --no-cache git hugo ca-certificates
+RUN apk update && apk add --no-cache hugo
 
-WORKDIR /go/src
+WORKDIR /hugo
 
 RUN hugo new site about
 
-WORKDIR /go/src/about
+WORKDIR /hugo/about
 
-RUN git submodule add https://github.com/Track3/hermit.git themes/hermit 
+ADD https://github.com/Track3/hermit/archive/master.tar.gz themes/hermit
 
 COPY . .
 
