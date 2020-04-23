@@ -1,10 +1,14 @@
-### Go Build stage
-
 FROM alpine:latest
 
-RUN apk update && apk add --no-cache hugo git
+RUN apk update && apk add --no-cache git
 
 WORKDIR /hugo
+
+ADD https://github.com/gohugoio/hugo/releases/download/v0.69.1/hugo_0.69.1_Linux-64bit.tar.gz hugo.tar.gz
+
+RUN tar -xvf hugo.tar.gz
+
+RUN cp hugo /usr/local/bin/
 
 RUN hugo new site about
 
@@ -14,6 +18,6 @@ RUN git clone --depth 1 https://github.com/Track3/hermit.git themes/hermit
 
 COPY . .
 
-EXPOSE 1313/tcp
+EXPOSE 80/tcp
 
-ENTRYPOINT ["hugo","server","--bind=0.0.0.0","--watch=false"]
+ENTRYPOINT ["hugo","server","--bind=0.0.0.0","--port=80","--baseURL=https://sre.kz","--watch=false"]
