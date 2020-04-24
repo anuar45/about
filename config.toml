@@ -1,7 +1,7 @@
 baseURL = "https://sre.kz"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Anuar Serdaliyev"
+title = "sre.kz"
 theme = "hermit"
 # enableGitInfo = true
 pygmentsCodefences  = true
@@ -14,7 +14,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 # disqusShortname = "yourdiscussshortname"
 
 [author]
-  name = "Hugo"
+  name = "Anuar"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -36,7 +36,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "System Engineer"
+  homeSubtitle = "I am Anuar, systems engineer with passion for technology. This is my personal page with blog posts and projects."
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
