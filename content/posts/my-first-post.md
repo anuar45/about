@@ -10,3 +10,5 @@ tags:
 Right now idea is to make posts about exploring code and architecture of popular Golang projects. 
 
 Plus some random toughts, which could be helpful to anyone.
+
+Also will mirror this to popular blog platforms.
