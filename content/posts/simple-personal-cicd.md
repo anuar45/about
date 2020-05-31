@@ -25,5 +25,5 @@ For now briefly, will add more later:
 - Code pushed to github with version tag 
 - Code tested with Github actions
 - Docker Hub monitors and build tagged versions
-- Watchtower monitors and pulls new docker image, restarts exesiting one with new one
+- Watchtower monitors and pulls new docker image, restarts existing one with updated version
 - Traefik monitors running contrainers and expose them with lets encrypt certs

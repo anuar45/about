@@ -33,7 +33,7 @@ Years: 2003 -2008
 Location: Samara city, Russia
 Degree: Software Engineer
 
-### Certificates earned
+### Certificates
 * VMware VCP5 – DCV
 * MCSE
 * HP ATP – Building HP Server Solutions v2
