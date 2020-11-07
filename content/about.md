@@ -6,13 +6,14 @@ date: 2020-04-22T17:12:19+02:00
 ## My name is Anuar Serdaliyev
 
 I have 10+ years of planning, designing, implementing and supporting IT Infrastructure Services.
-For now I am interested in SE/SRE with Golang.
+
+Currently interested in SE/SRE activities and Go programming.
 
 ### Skills
 * Active now: 
-    * **Golang**, Docker, Mongo, Git
-    * CHEF, Teamcity, Bitbucket,
-    * Grafana, Influx TICK Stack, Prometheus
+    * **Go**, Kubernetes, Docker, Mongo, Git
+    * CHEF, Teamcity, Bitbucket, Gitlab
+    * Grafana, Influx, Prometheus
     * Linux, Windows
     * ITIL, Agile, DevOps
 
@@ -34,6 +35,7 @@ Location: Samara city, Russia
 Degree: Software Engineer
 
 ### Certificates
+* Oracle Cloud Infrastructure Architect Assosiate
 * VMware VCP5 – DCV
 * MCSE
 * HP ATP – Building HP Server Solutions v2
@@ -41,4 +43,4 @@ Degree: Software Engineer
 * ITIL v3 Foundation
 
 ### Personal interests
-Family, fishing, running, learning, nintendo.
+Fishing, running, learning, casual gaming.
