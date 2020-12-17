@@ -1,20 +1,20 @@
 ---
-title: "Curriculum vitae"
-date: 2020-04-22T17:12:19+02:00
+title: "About"
+date: 2020-12-17T09:00:00+02:00
 ---
 
-## My name is Anuar Serdaliyev
+## Summary
 
-I have 10+ years of planning, designing, implementing and supporting IT Infrastructure Services.
+I am a Systems Engineer with 10+ years of planning, designing, implementing and supporting IT Infrastructure Services.
 
 Currently interested in SE/SRE activities and Go programming.
 
 ### Skills
 * Active now: 
-    * **Go**, Kubernetes, Docker, Mongo, Git
+    * Go, Kubernetes, Docker, Mongo, Git
     * CHEF, Teamcity, Bitbucket, Gitlab
     * Grafana, Influx, Prometheus
-    * Linux, Windows
+    * Linux only
     * ITIL, Agile, DevOps
 
 * Back in a days: 
@@ -25,7 +25,7 @@ Currently interested in SE/SRE activities and Go programming.
     * Zabbix, SCOM
     * Python, ASP .Net MVC, Powershell
     * Microsoft SQL Server
-    * and lots of other...
+    * etc.........
 
 ### High education
 Department: Computer Science

@@ -9,7 +9,7 @@ tags:
   - traefik
 ---
 
-Here i want to share how my personal cicd works. Thanks to Golang it costs me only 5$ digitalocean instance with runs - traefik, grafana, promethues, loki and my personal sites. Hope it will be helpful...
+Here i want to share how my personal cicd works. Thanks to Golang it costs me only 5$ digitalocean instance which runs - traefik, grafana, promethues, loki and my personal sites. Hope it will be helpful...
 
 First of all list of used tools:
 
