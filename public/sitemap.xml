@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://sre.kz/about/</loc>
+    <lastmod>2020-12-17T09:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sre.kz/tags/cicd/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sre.kz/posts/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sre.kz/posts/simple-personal-cicd/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sre.kz/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sre.kz/tags/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sre.kz/tags/traefik/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sre.kz/tags/watchtower/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sre.kz/posts/my-first-post/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sre.kz/tags/untagged/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sre.kz/projects/</loc>
+  </url>
+  
+</urlset>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>traefik on sre.kz</title>
+    <link>https://sre.kz/tags/traefik/</link>
+    <description>Recent content in traefik on sre.kz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 29 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://sre.kz/tags/traefik/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple personal CI/CD</title>
+      <link>https://sre.kz/posts/simple-personal-cicd/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sre.kz/posts/simple-personal-cicd/</guid>
+      <description>Here i want to share how my personal cicd works. Thanks to Golang it costs me only 5$ digitalocean instance which runs - traefik, grafana, promethues, loki and my personal sites. Hope it will be helpful&amp;hellip;
+First of all list of used tools:
+ Traefik - as reverse proxy with lets encrypt Github - as git repository Docker Hub - as docker images registry, and build tool Watchtower - refreshes running container with new version  You can find all of the code here</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,57 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on sre.kz</title>
+		<link>https://sre.kz/posts/</link>
+		<description>Recent content in Posts on sre.kz</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+		<lastBuildDate>Fri, 29 May 2020 00:00:00 +0000</lastBuildDate>
+		<atom:link href="https://sre.kz/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Simple personal CI/CD</title>
+			<link>https://sre.kz/posts/simple-personal-cicd/</link>
+			<pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://sre.kz/posts/simple-personal-cicd/</guid>
+			<description>Here i want to share how my personal cicd works. Thanks to Golang it costs me only 5$ digitalocean instance which runs - traefik, grafana, promethues, loki and my personal sites. Hope it will be helpful&amp;hellip;
+First of all list of used tools:
+ Traefik - as reverse proxy with lets encrypt Github - as git repository Docker Hub - as docker images registry, and build tool Watchtower - refreshes running container with new version  You can find all of the code here</description>
+			<content type="html"><![CDATA[<p>Here i want to share how my personal cicd works. Thanks to Golang it costs me only 5$ digitalocean instance which runs - traefik, grafana, promethues, loki and my personal sites. Hope it will be helpful&hellip;</p>
+<p>First of all list of used tools:</p>
+<ul>
+<li>Traefik - as reverse proxy with lets encrypt</li>
+<li>Github - as git repository</li>
+<li>Docker Hub - as docker images registry, and build tool</li>
+<li><a href="https://github.com/containrrr/watchtower">Watchtower</a> - refreshes running container with new version</li>
+</ul>
+<p>You can find all of the code <a href="https://github.com/anuar45/srekz">here</a></p>
+<p>For now briefly, will add more later:</p>
+<ul>
+<li>Code pushed to github with version tag</li>
+<li>Code tested with Github actions</li>
+<li>Docker Hub monitors and build tagged versions</li>
+<li>Watchtower monitors and pulls new docker image, restarts existing one with updated version</li>
+<li>Traefik monitors running contrainers and expose them with lets encrypt certs</li>
+</ul>
+]]></content>
+		</item>
+		
+		<item>
+			<title>My First Post</title>
+			<link>https://sre.kz/posts/my-first-post/</link>
+			<pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://sre.kz/posts/my-first-post/</guid>
+			<description>Right now idea is to make posts about exploring code and architecture of popular Golang projects.
+Plus some random toughts, which could be helpful to anyone.
+Also will mirror this to popular blog platforms.</description>
+			<content type="html"><![CDATA[<p>Right now idea is to make posts about exploring code and architecture of popular Golang projects.</p>
+<p>Plus some random toughts, which could be helpful to anyone.</p>
+<p>Also will mirror this to popular blog platforms.</p>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>
